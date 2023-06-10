@@ -4,7 +4,7 @@ on: [push]
 
 jobs: 
   build : 
-    runs-on: ubunt-latest
+    runs-on: ubuntu-latest
     steps: 
     #run 뒤에 실제 작동하는 코드를 넣기 
     - name: hello world 출력!!
