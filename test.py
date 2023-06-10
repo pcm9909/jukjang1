@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://product.kyobobook.co.kr/bestseller/online?period=001#?page=1&per=20&ymw=&period=001&saleCmdtClstCode=&dsplDvsnCode=000&dsplTrgtDvsnCode=001&saleCmdtDsplDvsnCode='
+url = 'https://product.kyobobook.co.kr/bestseller/online?period=001'
 response = requests.get(url)
 response.encoding = 'utf-8'
 html = response.text
