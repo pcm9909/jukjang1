@@ -11,6 +11,8 @@ jobs:
     
     - name: 1. 파일 록 출력
       run: ls
-    - name: 2. 파이썬 실행
+    - name: 2. 파이썬 패키지 확인
+      run: pip list
+    - name: 3. 파이썬 실행
       run: python test.py
    
